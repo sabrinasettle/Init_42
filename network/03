@@ -1,0 +1,3 @@
+#Identify the MAC address of the wifi card
+
+ifconfig -a

@@ -1,0 +1,33 @@
+Make the intra.42.fr address reroute to 46.19.122.85 RED
+
+curl ifconfig.me returns 64.62.224.29
+
+but ifconfig en0| grep "inet[ ]" | awk '{print $2}'
+delivers back 10.112.7.11
+
+Routing is designed to make sure that network traffic gets around from place to place
+So I installed iproute2mac through brew
+threw the command ip route in to the terminal which delivered back
+
+
+nslookup e1z2r7p11.42.us.org
+
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+Name:	e1z2r7p11.42.us.org
+Address: 10.112.7.11
+
+
+
+
+
+
+cat /etc/hosts
+
+
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+#10.51.1.38 	cdn.intra.42.fr

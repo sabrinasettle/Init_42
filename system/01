@@ -1,0 +1,3 @@
+#In what file can you find the installed version of your Debian? RED
+
+/etc/debian_version needs to be accessed to see the version installed

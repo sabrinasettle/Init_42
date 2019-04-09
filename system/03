@@ -1,0 +1,3 @@
+#What file has to be modified to make it permanent? RED
+
+/etc/hostname needs to be accessed to make it permanent
