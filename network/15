@@ -1,4 +1,7 @@
-Make the intra.42.fr address reroute to 46.19.122.85 RED
+#Make the intra.42.fr address reroute to 46.19.122.85 RED
+
+vim /etc/hosts then add :
+49.19.122.85 intra.42.fr
 
 curl ifconfig.me returns 64.62.224.29
 

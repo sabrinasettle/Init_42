@@ -1,6 +1,7 @@
 #Get the complete path of the file that contains the IP address of the DNS server
-#you’re using RED 
+#you’re using RED
 
 cat /etc/resolv.conf
+
 scutil --dns
 scutil --dns | grep nameserver
