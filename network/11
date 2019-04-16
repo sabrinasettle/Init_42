@@ -1,13 +1,13 @@
 #Use the output of the previous command to find the name and IP address of the
-#device that makes the link between you (local network) and the outside world 
+#device that makes the link between you (local network) and the outside world
 
-'traceroute slash16.org' was used for the previous anwser and in using it 
+'traceroute slash16.org' was used for the previous anwser and in using it
 we got a set of devices between this device and the slash16 domain
 
 traceroute to slash16.org (52.84.245.157), 64 hops max, 52 byte packets
  1  10.112.254.254 (10.112.254.254)  0.938 ms  0.590 ms  3.978 ms
  2  192.168.0.2 (192.168.0.2)  0.489 ms  0.643 ms  0.487 ms
- 3  nat (10.90.1.11)  0.436 ms  0.286 ms  0.345 ms
+ 3  nat (10.90.1.11)  0.436 ms  0.286 ms  0.345 ms ******************
  4  64.62.224.30 (64.62.224.30)  0.880 ms  0.939 ms  0.965 ms
  5  64.62.224.253 (64.62.224.253)  3.615 ms  3.618 ms  5.311 ms
  6  64.62.224.249 (64.62.224.249)  3.989 ms  4.034 ms  3.936 ms
@@ -32,3 +32,5 @@ traceroute to slash16.org (52.84.245.157), 64 hops max, 52 byte packets
 15  * * *
 16  * * *
 17  * server-52-84-245-157.sfo20.r.cloudfront.net (52.84.245.157)  4.727 ms *
+
+the correct anwser is nat (10.90.1.11)
