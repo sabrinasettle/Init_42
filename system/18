@@ -1,3 +1,5 @@
 #Find the command that kills ssh services
 
 service ssh stop
+
+https://www.cyberciti.biz/faq/howto-restart-ssh/

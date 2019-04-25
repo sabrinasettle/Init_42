@@ -1,3 +1,5 @@
 #Name the command that determines the state of the SSH service
 
-service ssh status //if I can get to work???
+service ssh status
+
+https://www.cyberciti.biz/faq/howto-restart-ssh/

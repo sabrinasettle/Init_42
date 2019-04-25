@@ -1,5 +1,6 @@
 #Find the service which makes it possible to run specific tasks following a
 #set schedule
 
-cron or what could be called a cron job, it is a command that makes it possible
+cron
+what could be called a cron job, it is a command that makes it possible
 to set up repeat tasks to be run at specific times
