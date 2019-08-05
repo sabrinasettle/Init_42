@@ -1,1 +1,5 @@
 #Find the command that lists all packages
+
+apt list --installed
+
+dpkg-query -l

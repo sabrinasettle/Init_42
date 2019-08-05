@@ -1,1 +1,3 @@
 #Find the command that adds a new local user
+
+adduser or useradd
