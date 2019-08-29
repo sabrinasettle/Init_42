@@ -2,5 +2,5 @@
 #set schedule
 
 cron
-what could be called a cron job, it is a command that makes it possible
-to set up repeat tasks to be run at specific times
+#what could be called a cron job, it is a command that makes it possible
+#to set up repeat tasks to be run at specific times

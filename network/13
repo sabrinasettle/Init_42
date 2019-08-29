@@ -1,10 +1,8 @@
-#Thanks to the previous question and the reverse DNS find the name of your host GREEN
+#Thanks to the previous question and the reverse DNS find the name of your host
 
-
-Server:		10.51.1.253
-Address:	10.51.1.253#53
-
-*38.1.51.10.in-addr.arpa	name = munki2cdn.42.us.org.
-*38.1.51.10.in-addr.arpa	name = nfs-student-1-1.42.us.org.
-
+#hostname
 #nslookup 10.51.1.38 was used
+
+
+#work on this
+#write result here

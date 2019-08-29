@@ -2,15 +2,15 @@
 #(a) Identify the broadcast address
 #(b) Identify all the IP adresses which are part of the same subnet
 
-ifconfig -L en0 | grep "inet" | cut -d " " -f 2
+(a)
+ifconfig | grep "broadcast" | cut -d ' ' -f6
 
-//returns
-//fe80::88b:2563:3737:36f5%en0
-//10.112.8.20
 
-ifconfig | grep "broadcast" | cut -d ' ' -f6 
+ 
 arp -a | grep "fr" | cut -d ' ' -f2 | sed "s/(//g;s/)//g"
 
 b)arp -a
 
 https://security.stackexchange.com/questions/133878/how-to-find-list-of-ip-address-in-a-network-with-multiple-subnets
+
+#work on this

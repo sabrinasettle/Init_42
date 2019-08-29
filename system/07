@@ -1,3 +1,6 @@
 #Figure out the PID of the SSHD service
 
 cat /var/run/sshd.pid
+#pidof sshd 
+
+#work on this

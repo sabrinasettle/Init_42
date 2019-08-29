@@ -33,4 +33,4 @@ traceroute to slash16.org (52.84.245.157), 64 hops max, 52 byte packets
 16  * * *
 17  * server-52-84-245-157.sfo20.r.cloudfront.net (52.84.245.157)  4.727 ms *
 
-the correct anwser is nat (10.90.1.11)
+the correct anwser is nat (10.90.1.11) #10.60.1.11

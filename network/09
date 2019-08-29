@@ -1,4 +1,5 @@
-#Find the external IP of 42.fr GREEN
+#Find the external IP of 42.fr
+
 #nslookup 42.fr 8.8.8.8
 
 Address: 163.172.250.13

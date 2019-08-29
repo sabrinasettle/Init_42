@@ -1,3 +1,5 @@
 #In what file can you find the installed version of your Debian? RED
 
-/etc/debian_version needs to be accessed to see the version installed
+/etc/debian_version 
+#needs to be accessed to see the version installed
+#cat /etc/debian_version

@@ -1,4 +1,3 @@
 #Name the command that lists the partition tables of drives?
 
- su-
- fdisk -l 
+su fdisk -l 

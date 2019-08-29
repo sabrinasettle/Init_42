@@ -3,13 +3,14 @@
 /etc/hosts  accessed by vim and then adding :
 46.19.122.85 intra.42.fr
 
+or simplier is echo "46.19.122.85 intra.42.fr" >> /etc/hosts
 
-cat /etc/hosts
+#cat /etc/hosts
 
-127.0.0.1       localhost
-255.255.255.255 broadcasthost
-::1             localhost
+#127.0.0.1       localhost
+#255.255.255.255 broadcasthost
+#::1             localhost
 
-46.19.122.85
+#46.19.122.85
 
 #10.51.1.38 	cdn.intra.42.fr
