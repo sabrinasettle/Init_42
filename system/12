@@ -1,7 +1,6 @@
 #Figure out the exact size of each folder of /var in a humanly understandable way
 #followed by the path of it
 
-su du /var -h
-#su du -sh /var/*
-
-#work on this
+su in 
+then
+du -sh /var/*

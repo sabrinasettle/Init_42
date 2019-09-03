@@ -1,6 +1,11 @@
 #Figure out the PID of the SSHD service
 
-cat /var/run/sshd.pid
-#pidof sshd 
+cat /var/run/sshd.pid #returns 383
+but 
+pidof sshd #returns all the running sshd pids 
 
-#work on this
+cat solution:
+https://stackoverflow.com/questions/6867669/getting-pid-of-sshd
+
+pidof solution:
+https://superuser.com/questions/545245/find-pid-of-a-certain-ssh-instance

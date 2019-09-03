@@ -1,6 +1,6 @@
 #Find the IP that was assigned to you by dhcp server
 
 ipconfig getoption en0 server_identifier 
-#ifconfig en0 | grep "inet " | cut -d " " -f2
+ifconfig en0 | grep "inet " | cut -d " " -f2
 
-#return 10.51.1.253
+#return 10.51.1.253 on the first command, but the second 10.112.1.4

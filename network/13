@@ -1,8 +1,3 @@
 #Thanks to the previous question and the reverse DNS find the name of your host
 
-#hostname
-#nslookup 10.51.1.38 was used
-
-
-#work on this
-#write result here
+nslookup <ipconfig> | grep -o e.z.r.p.. //the grep get JUST the name //Eli

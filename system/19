@@ -1,6 +1,5 @@
 #List all services which are started at boot time and name this kind of services
 
-daemon
-systemctl list-units --type service --all || ls /etc/init.d
+systemctl list-unit-files --type=service
 
-#work on this
+https://askubuntu.com/questions/912216/16-04-command-to-list-all-services-started-on-boot

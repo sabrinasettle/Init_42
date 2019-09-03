@@ -5,12 +5,8 @@
 (a)
 ifconfig | grep "broadcast" | cut -d ' ' -f6
 
-
- 
-arp -a | grep "fr" | cut -d ' ' -f2 | sed "s/(//g;s/)//g"
-
-b)arp -a
+b)
+arp -a
 
 https://security.stackexchange.com/questions/133878/how-to-find-list-of-ip-address-in-a-network-with-multiple-subnets
-
-#work on this
+https://stackoverflow.com/questions/13669585/how-to-get-a-list-of-all-valid-ip-addresses-in-a-local-network
