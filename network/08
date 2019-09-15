@@ -2,7 +2,7 @@
 
 command host slash16.org prints out the information:
 
-slash16.org has address 99.84.231.58
+slash16.org has address 99.84.231.58 *
 slash16.org has address 99.84.231.140
 slash16.org has address 99.84.231.195
 slash16.org has address 99.84.231.92
@@ -12,4 +12,4 @@ slash16.org mail is handled by 1 aspmx.l.google.com.
 slash16.org mail is handled by 5 alt1.aspmx.l.google.com.
 slash16.org mail is handled by 5 alt2.aspmx.l.google.com.
 
-then whois 99.84.231.58 states that Amazon.com, INC. is the provider.
+* then whois 99.84.231.58 states that Amazon.com, INC. is the provider.

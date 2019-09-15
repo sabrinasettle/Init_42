@@ -1,4 +1,4 @@
-#Get the list of the network interfaces of the machine without displaying any details
-#about these interfaces. Provide only the list of names.
+#Get the list of the network interfaces of the machine without displaying any 
+#details about these interfaces. Provide only the list of names.
 
 ifconfig -a | sed -E 's/[[:space:]:].*//;/^$/d'

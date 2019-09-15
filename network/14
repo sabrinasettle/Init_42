@@ -1,3 +1,16 @@
 #What file contains the local DNS entries?
 
-/etc/hosts acceses the dns stored files
+cat /etc/hosts 
+# shows the contents:
+
+e1z2r6p1% cat /etc/hosts
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+#10.51.1.38     cdn.intra.42.fr
+
+# DNS records are stored in DNS servers and work to help users connect their 
+# websites to the outside world. When the URL is entered and searched in the 
+# browser, that URL is forwarded to the DNS servers and then directed to 
+# the specific Web server. -GOOGLE

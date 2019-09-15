@@ -1,5 +1,5 @@
 #Find the command that adds a new local user
 
-su adduser <username
+sudo adduser <username> //graphical 
 or 
-su useradd <username>
+sudo useradd <username> //automatic

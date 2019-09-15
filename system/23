@@ -1,3 +1,10 @@
 #Explain how to connect yourself as a new user (with graphic session and ssh session)
 
-adduser
+sudo adduser <username>
+then create a new password
+add a name
+
+itll ask for things like room num, and phone num but you can skip those
+# is an interesting question, due to the fact there are two ways to add a user
+# the command above does crete a user with a graphicial interface rather than
+# user add
