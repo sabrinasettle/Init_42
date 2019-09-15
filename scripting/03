@@ -1,0 +1,11 @@
+#Three's a Charm. Write a sript of your choice
+
+read -r -p "have you drank any water in the last hour? [y/n] " reponse
+case "$reponse" in 
+	[y])
+		echo "cool good job!"
+		;;
+	*)
+		echo "you should drink some water then!"
+		;;
+esac

@@ -1,3 +1,7 @@
 #What file contains the RSA keys of the systems that have authorization to connect via SSH?
 
 ~/.ssh/authorized_keys
+
+#RSA keys are another way of authenicating a SSL/TLS session working as a 
+# crytosystem. This certifies the user by using public keys. The file above
+# contains those keys 
